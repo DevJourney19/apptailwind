@@ -15,13 +15,13 @@ const App = () => {
             </h1>
             <div className="flex -mx-2 flex-wrap">
                 <div className="w-full sm:w-1/2 md:w-1/3 px-2">
-                    <Card />
+                    <Card photo='https://picsum.photos/800/600'/>
                 </div>
                 <div className="w-full sm:w-1/2 md:w-1/3 px-2">
-                    <Card />
+                    <Card photo='https://picsum.photos/800/600'/>
                 </div>
                 <div className="w-full sm:w-1/2 md:w-1/3 px-2">
-                    <Card />
+                    <Card photo='https://picsum.photos/800/600'/>
                 </div>
             </div>
 

@@ -1,13 +1,12 @@
 import React from 'react';
 
-function Card() {
+function Card({photo}) {
     return (
         <div>
-            {/*Tarjeta #1*/}
             <div className="card">
                 {/*-- Imagen div--*/}
                 <div>
-                    <img className='w-full' src='https://picsum.photos/800/600' alt="naturaleza.jpg" />
+                    <img className='w-full' src={photo} alt="naturaleza.jpg" />
                 </div>
                 <div className=" p-5 pb-8 pr-8">
                     <h1 className="font-bold pb-1 text-xl">The Green Tree</h1>
